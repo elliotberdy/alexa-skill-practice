@@ -36,7 +36,7 @@ const AddIntentHandler = {
   handle(handlerInput) {
     let speechText = "";
     let displayText = "";
-    let intent = handlerINput.requestEnvelope.request.intent;
+    let intent = handlerInput.requestEnvelope.request.intent;
     let firstNumber = intent.slots.firstNumber.value;
     let secondNumber = intent.slots.secondNumber.value;
 
@@ -70,7 +70,7 @@ const SubtractIntentHandler = {
   handle(handlerInput) {
     let speechText = "";
     let displayText = "";
-    let intent = handlerINput.requestEnvelope.request.intent;
+    let intent = handlerInput.requestEnvelope.request.intent;
     let firstNumber = intent.slots.firstNumber.value;
     let secondNumber = intent.slots.secondNumber.value;
 
