@@ -1,0 +1,27 @@
+{
+  "name": "alexa-skill-practice",
+  "version": "1.0.0",
+  "description": "My Alexa Calculator Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotberdy/alexa-skill-practice.git"
+  },
+  "keywords": [
+    "calculator",
+    "alexa"
+  ],
+  "author": "Elliot Berdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotberdy/alexa-skill-practice/issues"
+  },
+  "homepage": "https://github.com/elliotberdy/alexa-skill-practice#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.86.0"
+  }
+}
